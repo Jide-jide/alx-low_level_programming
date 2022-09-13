@@ -8,25 +8,22 @@
 
 int print_sign(int n)
 {
+	int return_type;
+
 	if (n > 0)
 	{
-		printf("+");
-		printf(",");
-		printf(" ");
-		return (1);
+		return_type = 1;
+		_putchar('+');
 	}
 	else if (n == 0)
 	{
-		printf("0");
-		printf(",");
-		printf(" ");
-		return (0);
+		return_type = 0;
+		_putchar('0');
 	}
 	else if (n < 0)
 	{
-		printf("-");
-		printf(",");
-		printf(" ");
-		return (-1);
+		return_type = -1;
+		_putchar('-');
 	}
+	return (return_type);
 }
