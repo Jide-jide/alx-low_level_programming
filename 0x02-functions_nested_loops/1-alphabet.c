@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 *main - Write a function that prints the alphabet,
@@ -6,18 +6,13 @@
 *Return: Always 0 (Success)
 */
 
-void print_alphabet(void);
-
 void print_alphabet(void)
 {
-	int i;
+	char i;
 
-	for (i = 97; i < 123; i++)
-		printf("%c", i);
-}
+	for (i = 'a'; i < 'z'; i++)
+		_putchar(i);
+	_putchar('\n');
 
-int main(void)
-{
-	print_alphabet(void);
 	return (0);
 }
