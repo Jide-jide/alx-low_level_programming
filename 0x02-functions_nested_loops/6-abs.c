@@ -1,18 +1,13 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- * _abs - Write a function that computes the absolute value of an integer.
- * @c : number to check
+ * _abs - return value
+ * @n : the number to be checked
  * Return:0 or 1
  */
 
-int _abs(int c)
-{
-	int x;
+int _abs(int n)
 
-	x = abs(c);
-	_putchar(x);
-	return (0);
+{
+	return (n >= 0 ? n : n * -1);
 }
