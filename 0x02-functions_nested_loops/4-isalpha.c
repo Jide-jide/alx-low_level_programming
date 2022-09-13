@@ -7,7 +7,7 @@
 *Return: Always 0 (Success)
 */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (isalpha(c) || islower(c) || isupper(c))
 		return (1);
