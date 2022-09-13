@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 
 /**
  * print_last_digit - return value
@@ -13,7 +13,7 @@ int print_last_digit(int x)
 {
 	int last;
 
-	last = x % 10;
+	last = abs(x % 10);
 
 	return (last);
 }
