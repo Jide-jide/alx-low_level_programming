@@ -1,30 +1,49 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
-*print_sign - Write a function that prints the sign of a number.
-* @n : character to check the case
-*Return: Always 0 (Success)
-*/
+ * print_sign - entry point
+ * @n : number to check
+ * Return:0 or 1
+ */
 
 int print_sign(int n)
+
 {
-	int return_type;
+
+	int numz;
+
+
 
 	if (n > 0)
+
 	{
-		return_type = (1);
+
+		numz = 1;
+
 		_putchar('+');
+
 	}
+
 	else if (n == 0)
+
 	{
-		return_type = (0);
+
+		numz = 0;
+
 		_putchar('0');
+
 	}
-	else if (n < 0)
+
+	else
+
 	{
-		return_type = (-1);
+
+		numz = -1;
+
 		_putchar('-');
+
 	}
-	return (return_type);
+
+	return (numz);
+
 }
+
