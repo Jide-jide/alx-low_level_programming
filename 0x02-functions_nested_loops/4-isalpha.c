@@ -9,7 +9,7 @@
 
 int _islower(int c)
 {
-	if (isalpha (c) || islower(c) || isupper(c))
+	if (isalpha(c) || islower(c) || isupper(c))
 		return (1);
 	else
 		return (0);
