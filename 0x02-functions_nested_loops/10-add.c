@@ -2,7 +2,9 @@
 
 /**
 *add - adds
-** Return: void
+*@x - is int
+*@y - is int
+* Return: void
 */
 
 int add(int x, int y)
