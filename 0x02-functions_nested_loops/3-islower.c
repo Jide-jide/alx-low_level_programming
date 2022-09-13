@@ -3,6 +3,7 @@
 
 /**
 *_islower(int c)-Write a function that checks for lowercase character.
+* @c : character to check the case
 *Return: Always 0 (Success)
 */
 
