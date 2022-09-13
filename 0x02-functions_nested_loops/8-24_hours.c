@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
- * jack_bauer - Write a function that prints every minute of the day of Jack Bauer,
+ *jack_bauer - Write a function that prints every,
+ *minute of the day of Jack Bauer,
  *starting from 00:00 to 23:59.
  * Return: integer value
  */
