@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
-*_islower(int c)-Write a function that checks for lowercase character.
+*_isalpha(int c) - Write a function that checks for lowercase character.
 * @c : character to check the case
 *Return: Always 0 (Success)
 */
