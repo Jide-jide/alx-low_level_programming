@@ -2,8 +2,8 @@
 
 /**
 *add - adds
-*@x - is int
-*@y - is int
+*@x : is int
+*@y : is int
 * Return: void
 */
 
