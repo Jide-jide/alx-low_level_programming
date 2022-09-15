@@ -5,7 +5,6 @@
  * @size : int size of square
  * Return : void
  */
-
 void print_square(int size)
 {
 	int x;
@@ -23,4 +22,4 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	}
-}	
+}
