@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - prints nums
- * Return: Always 0 (Success)
+ * Return: void
  */
 
 void more_numbers(void)
