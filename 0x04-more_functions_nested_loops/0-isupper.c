@@ -1,17 +1,18 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 
 /**
- *_isupper - checks if upper.
- *@c : var to check
- *
- *Return: Always 0.
- */
+*_isupper(int c) - checks if upper.
+* @c : character to check the case
+*Return: Always 0 (Success)
+*/
 
 int _isupper(int c)
 {
 	if (isupper(c))
 		return (1);
-	return (0);
+	else
+		return (0);
 }
 
