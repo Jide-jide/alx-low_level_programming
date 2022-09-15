@@ -1,21 +1,31 @@
 #include "main.h"
 
 /**
- * print_triangle - print triangle
- * @size : int size of shape
- * Return: void
+ * print_triangle - check
+ * @size : integer type
+ * Retutn: void
  */
-
 void print_triangle(int size)
 {
-	int x, y;
-	
-	for (x = 0;x <= size; x++)
+	int i = 1, ii;
+
+	while (i <= size && size > 0)
 	{
-		for (y = 0; y <= x; y++)
+		ii = 0;
+		while (ii < size - i)
+		{
+			_putchar(' ');
+			ii++;
+		}
+		ii = 0;
+		while (ii < i)
 		{
 			_putchar('#');
+			ii++;
 		}
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
+	if (i == 1)
+		_putchar('\n');
 }
