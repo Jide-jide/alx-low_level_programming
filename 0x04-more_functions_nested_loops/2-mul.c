@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * mul(int a, int b) - multuplies 2 nums
- * @a : num 1
- * @b : num 2
+ * mul - multuplies 2 nums
+ * @a : int num
+ * @b : int num
  * Return: Always 0 (Success)
  */
 
