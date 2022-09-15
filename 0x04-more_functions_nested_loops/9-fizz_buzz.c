@@ -4,7 +4,6 @@
  * main - fizzbuzz test
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int x;
@@ -24,7 +23,7 @@ int main(void)
 			printf("Buzz ");
 		}
 		else
-		{	
+		{
 			printf("%d ", x);
 		}
 	}
