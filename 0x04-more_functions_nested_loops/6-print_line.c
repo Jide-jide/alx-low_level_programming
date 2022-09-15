@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints line
- * @n - int data type
+ * @n : int data type
  * Return - void
  */
 
