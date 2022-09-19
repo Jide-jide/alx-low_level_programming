@@ -12,7 +12,7 @@ void rev_string(char *s)
 	unsigned int i;
 	int j;
 
-	for (i = 0; i < strlen(s) - 1; i++)
+	for (i = 0; i <= strlen(s); i++)
 		_putchar(s[i]);
 
 	for (j = strlen(s) - 1; j >= 0; j--)
