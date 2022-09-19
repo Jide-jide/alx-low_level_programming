@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *_strcpy - update value.
- *@dest: value to be evaluate.
- *@src: value to be evaluate.
+ * _strcpy - update value.
+ * @dest : value to be evaluate.
+ * @src : value to be evaluate.
+ * Return : char dest
  */
 
 char *_strcpy(char *dest, char *src)
