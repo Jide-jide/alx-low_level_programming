@@ -10,12 +10,25 @@
 
 void rev_string(char *s)
 {
-	unsigned int i;
-	int j;
+	int len = 0;
+	int l = 0;
+	char *y = s;
+	int e = 0;
+	int x;
+	char n;
 
-	for (i = 0; i <= strlen(s); i++)
-		printf(s[i]);
-	_putchar('\n');
-	for (j = strlen(s) - 1; j >= 0; j--)
-		printf(s[j]);
+	while (*y != '\0')
+	{
+		y++;
+		len++;
+	}
+
+	l = len - 1;
+	for (; e < ((l / 2) + 1); e++)
+	{
+		x = (l - e);
+		n = s[e];
+		s[e] = s[x];
+		s[x] = n;
+	}
 }
