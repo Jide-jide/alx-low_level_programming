@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * rev_string - prints rev of a string
@@ -13,8 +14,8 @@ void rev_string(char *s)
 	int j;
 
 	for (i = 0; i <= strlen(s); i++)
-		_putchar(s[i]);
+		printf(s[i]);
 	_putchar('\n');
 	for (j = strlen(s) - 1; j >= 0; j--)
-		_putchar(s[j]);
+		printf(s[j]);
 }
