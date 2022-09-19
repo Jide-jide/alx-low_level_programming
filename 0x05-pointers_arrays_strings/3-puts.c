@@ -13,5 +13,7 @@ void _puts(char *str)
 	unsigned int i;
 
 	for (i = 0; i < strlen(str); i++)
+	{
 		putchar(str[i]);
-}	
+	}
+}
