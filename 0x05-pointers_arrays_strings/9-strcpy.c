@@ -4,7 +4,7 @@
  * _strcpy - update value.
  * @dest : value to be evaluate.
  * @src : value to be evaluate.
- * Return : Always 0 
+ * Return : Always 0
  */
 
 char *_strcpy(char *dest, char *src)
