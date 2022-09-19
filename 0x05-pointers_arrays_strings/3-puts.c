@@ -4,7 +4,7 @@
 
 /**
  * _puts - prints a string
- * @str : char type 
+ * @str : char type
  * Return : void
  */
 
@@ -12,6 +12,6 @@ void _puts(char *str)
 {
 	unsigned int i;
 
-	for (i = 0; i <= strlen(str); i++)
-	       putchar(str[i]);
+	for (i = 0; i < strlen(str); i++)
+		putchar(str[i]);
 }	
