@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sting.h>
+#include <string.h>
 
 /**
  * print_rev - prints rev of a string
