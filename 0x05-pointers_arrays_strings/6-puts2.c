@@ -9,7 +9,7 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	unsigned int i = 0;
 
 	while (i < strlen(str))
 	{
