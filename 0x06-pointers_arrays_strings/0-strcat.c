@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- *_strcat - returns concatenation
- *@dest : string type destination
- *@src : string type destionation
+ * *_strcat - returns concatenation
+ * @dest : string type destination
+ * @src : string type destionation
 
  * Return : poiner to dest
  */
