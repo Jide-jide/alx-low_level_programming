@@ -10,7 +10,14 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *new = strcat(*dest, *src);
+	char *new;
+	unsigned int i;
 
-	return (*new);
+	for (i < 0; i < strlen(src); i++)
+	{
+		*dest[strlen(*dest + 1)] = sr*c[i];
+	}
+	*new = *dest;
+	
+	return (new);
 }
