@@ -2,10 +2,11 @@
 #include <string.h>
 
 /**
- * _strcat - returns concatenation
- * @dest : string type destination
- * @src : string type destionation
- * Return : char
+ *_strcat - returns concatenation
+ *@dest : string type destination
+ *@src : string type destionation
+
+ * Return : poiner to dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -17,7 +18,7 @@ char *_strcat(char *dest, char *src)
 	{
 		*dest[strlen(*dest + 1)] = sr*c[i];
 	}
-	*new = *dest;
+	new = dest;
 	
-	return (new);
+	return (dest);
 }
