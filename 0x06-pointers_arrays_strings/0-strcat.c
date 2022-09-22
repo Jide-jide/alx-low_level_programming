@@ -1,14 +1,12 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * *_strcat - returns concatenation
- * @dest : string type destination
- * @src : string type destionation
+ * _strcat - concatenates two strings
+ * @dest: The destination string
+ * @src: The source string
  *
- * Return : poiner to dest
+ * Return: A pointer to the resulting string dest.
  */
-
 char *_strcat(char *dest, char *src)
 {
 	char *new = dest;
