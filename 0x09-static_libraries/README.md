@@ -1,1 +1,1 @@
-static lib lessons
+C - Static libraries
