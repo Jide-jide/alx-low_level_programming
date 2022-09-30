@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 
 /**
 * main -  Prints number of arguements
