@@ -12,9 +12,9 @@ char *_strdup(char *str)
 {
 	char *p = NULL;
 
-	if(str)
+	if (str)
 	{
-		p = (char *)malloc(strlen(str) * sizeof(char));
+		p = (char *)malloc((strlen(str) + 1) * sizeof(char));
 
 		if (p)
 			p = str;
@@ -23,8 +23,6 @@ char *_strdup(char *str)
 	}
 	else
 		return (NULL);
-	
 	return (p);
-	
-	free(p);
+	free (p);
 }
