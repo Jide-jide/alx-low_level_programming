@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _strdup - function pointing to new copied memory allocation
@@ -16,7 +17,7 @@ char *_strdup(char *str)
 		p = (char *)malloc(strlen(str) * sizeof(char));
 
 		if (p)
-			*p = str;
+			p = str;
 		else
 			return (NULL);
 	}
