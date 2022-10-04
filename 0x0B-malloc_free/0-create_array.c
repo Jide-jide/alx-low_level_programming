@@ -26,7 +26,7 @@ char *create_array(unsigned int size, char c)
 			}
 		}
 		else
-			retrun (NULL);
+			return (NULL);
 	}
 	else 
 		return (NULL);
