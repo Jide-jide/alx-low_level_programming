@@ -14,21 +14,21 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *p = NULL;
 
-	if (size == 0)
-		return (0);
-	else
+	if (size > 0)
 	{
 		p = (char *)malloc(size * sizeof(char));
 
-		if (p == NULL)
-			return (NULL);
-		else
+		if (p)
 		{
 			for (i = 0; i < size; i++)
 			{
 				*p = c;
 			}
 		}
+		else
+			retrun (NULL);
 	}
+	else 
+		return (NULL);
 	return (p);
 }
